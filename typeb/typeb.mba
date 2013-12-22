@@ -1,0 +1,13 @@
+	-PENINP USER INPUT MATERIAL INVENTORY FOR BALANCE -
+(The first 6 lines of this deck are comments)
+---------------------------------------------------------------
+       Material       Material  Target (cm^3)   Density g/cc
+           Name         Number   Volume           (see xsec)
+---------------------------------------------------------------
+             Low             1    58.62965873835   10.5216
+             Med             2    84.28013443638     6.44
+            High             3    91.60884177867     1.0
+             Rod             4    22.90221044466     1.0
+         Chamber             5    .9160884177867      .77624
+       Moderator             6     194.066847259     6.44
+           

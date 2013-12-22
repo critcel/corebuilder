@@ -1,0 +1,721 @@
+read.log generated at :    14:52:33  on 10/24/2010
+
+ opening penmsh.inp
+ penmsh.inp open success
+ problem name : typea
+
+ num of z level:              2
+ num of material:             4
+ mathematica:                 0
+
+ z level boundary:     0.000000        1.000000        2.000000    
+
+ max z fine mesh for each z level:
+            1            1
+
+ fine to med ratio along x for each z level:
+            1            1
+ fine to med ratio along y for each z level:
+            1            1
+ fine to med ratio along z for each z level:
+            1            1
+
+ source format:             2
+ x mesh in src grid(.src):             1
+ y mesh in src grid(.src):             1
+ z mesh in src grid(.src):             1
+ num of group:             7
+ Sn order:             8
+ Pn order:             3
+
+ cross section information:
+ xs format:                 1
+ num_comment:               2
+ legdre order:              0
+ table length:             14
+
+ boundary conditions:
+ ibback=               1
+ ibfrnt=               1
+ jbright=              1
+ jbleft=               1
+ kbottom=              1
+ ktop=                 1
+
+ Warning 1004: 
+  s_format=2: no src in the model, .src file ignored even if it exists                                                   
+ penmsh.inp read complete
+ ********************************************************
+
+
+ opening inputfile: typea1.inp
+ typea1.inp :  open success
+
+ information for z level:             1
+ number of coarse mesh along x(ncx):               3
+ number of coarse mesh along x(ncy):               3
+ max z fine mesh for this z level:                -1
+
+ num of x fine mesh for each coarse mesh in this z level: 
+          139          139          139
+          139          139          139
+          139          139          139
+
+ num of y fine mesh for each coarse mesh in this z level: 
+          139          139          139
+          139          139          139
+          139          139          139
+
+ num of z fine mesh for each coarse mesh in this z level: 
+            1            1            1
+            1            1            1
+            1            1            1
+
+ coarse mesh position along x: 
+    0.000000        7.560000        13.86000        21.42000    
+
+ coarse mesh position along y: 
+    0.000000        7.560000        13.86000        21.42000    
+
+ coarse mesh type in this z level: 
+           -1           -1           -1
+           -1           -1           -1
+           -1           -1           -1
+
+ number of subregions in corase mesh  in this z level: 
+            1            1            1
+            1            1            1
+            1            1            1
+
+ Mat num for coarse mesh 1 :  4
+ Mat num for coarse mesh 2 :  4
+ Mat num for coarse mesh 3 :  4
+ Mat num for coarse mesh 4 :  4
+ Mat num for coarse mesh 5 :  4
+ Mat num for coarse mesh 6 :  4
+ Mat num for coarse mesh 7 :  4
+ Mat num for coarse mesh 8 :  4
+ Mat num for coarse mesh 9 :  4
+
+
+
+Overlay information for coarse mesh: 1
+ 1 block(s) 
+
+overlay block:  1
+ num of overlay   : -4
+ overlay type     : -2  -2  -2  -2
+ overlay mat      : 1  2  2  2
+ overlay boundary for overlay: 1
+    0.090     1.170     0.090     1.170
+ Rep. Structure info for overlay: 1
+  repeat times along +x,+y,+z : 17  17  1
+  dist. between elements along +x,+y,+z :     1.260      1.260      0.000
+ overlay boundary for overlay: 2
+    2.610     3.690     6.390     7.470
+ Rep. Structure info for overlay: 2
+  repeat times along +x,+y,+z : 5  3  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 3
+    6.390     7.470     2.610     3.690
+ Rep. Structure info for overlay: 3
+  repeat times along +x,+y,+z : 3  5  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 4
+    3.870     4.950     3.870     4.950
+ Rep. Structure info for overlay: 4
+  repeat times along +x,+y,+z : 2  2  1
+  dist. between elements along +x,+y,+z :    12.600     12.600      0.000
+done overlay block:   1
+ ------------------------------------
+
+Overlay information for coarse mesh: 2
+ 1 block(s) 
+
+overlay block:  1
+ num of overlay   : -4
+ overlay type     : -2  -2  -2  -2
+ overlay mat      : 1  2  2  2
+ overlay boundary for overlay: 1
+    0.090     1.170     0.090     1.170
+ Rep. Structure info for overlay: 1
+  repeat times along +x,+y,+z : 17  17  1
+  dist. between elements along +x,+y,+z :     1.260      1.260      0.000
+ overlay boundary for overlay: 2
+    2.610     3.690     6.390     7.470
+ Rep. Structure info for overlay: 2
+  repeat times along +x,+y,+z : 5  3  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 3
+    6.390     7.470     2.610     3.690
+ Rep. Structure info for overlay: 3
+  repeat times along +x,+y,+z : 3  5  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 4
+    3.870     4.950     3.870     4.950
+ Rep. Structure info for overlay: 4
+  repeat times along +x,+y,+z : 2  2  1
+  dist. between elements along +x,+y,+z :    12.600     12.600      0.000
+done overlay block:   1
+ ------------------------------------
+
+Overlay information for coarse mesh: 3
+ 1 block(s) 
+
+overlay block:  1
+ num of overlay   : -4
+ overlay type     : -2  -2  -2  -2
+ overlay mat      : 1  2  2  2
+ overlay boundary for overlay: 1
+    0.090     1.170     0.090     1.170
+ Rep. Structure info for overlay: 1
+  repeat times along +x,+y,+z : 17  17  1
+  dist. between elements along +x,+y,+z :     1.260      1.260      0.000
+ overlay boundary for overlay: 2
+    2.610     3.690     6.390     7.470
+ Rep. Structure info for overlay: 2
+  repeat times along +x,+y,+z : 5  3  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 3
+    6.390     7.470     2.610     3.690
+ Rep. Structure info for overlay: 3
+  repeat times along +x,+y,+z : 3  5  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 4
+    3.870     4.950     3.870     4.950
+ Rep. Structure info for overlay: 4
+  repeat times along +x,+y,+z : 2  2  1
+  dist. between elements along +x,+y,+z :    12.600     12.600      0.000
+done overlay block:   1
+ ------------------------------------
+
+Overlay information for coarse mesh: 4
+ 1 block(s) 
+
+overlay block:  1
+ num of overlay   : -4
+ overlay type     : -2  -2  -2  -2
+ overlay mat      : 1  2  2  2
+ overlay boundary for overlay: 1
+    0.090     1.170     0.090     1.170
+ Rep. Structure info for overlay: 1
+  repeat times along +x,+y,+z : 17  17  1
+  dist. between elements along +x,+y,+z :     1.260      1.260      0.000
+ overlay boundary for overlay: 2
+    2.610     3.690     6.390     7.470
+ Rep. Structure info for overlay: 2
+  repeat times along +x,+y,+z : 5  3  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 3
+    6.390     7.470     2.610     3.690
+ Rep. Structure info for overlay: 3
+  repeat times along +x,+y,+z : 3  5  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 4
+    3.870     4.950     3.870     4.950
+ Rep. Structure info for overlay: 4
+  repeat times along +x,+y,+z : 2  2  1
+  dist. between elements along +x,+y,+z :    12.600     12.600      0.000
+done overlay block:   1
+ ------------------------------------
+
+Overlay information for coarse mesh: 5
+ 1 block(s) 
+
+overlay block:  1
+ num of overlay   : -4
+ overlay type     : -2  -2  -2  -2
+ overlay mat      : 1  2  2  3
+ overlay boundary for overlay: 1
+    0.090     1.170     0.090     1.170
+ Rep. Structure info for overlay: 1
+  repeat times along +x,+y,+z : 17  17  1
+  dist. between elements along +x,+y,+z :     1.260      1.260      0.000
+ overlay boundary for overlay: 2
+    2.610     3.690     6.390     7.470
+ Rep. Structure info for overlay: 2
+  repeat times along +x,+y,+z : 5  3  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 3
+    6.390     7.470     2.610     3.690
+ Rep. Structure info for overlay: 3
+  repeat times along +x,+y,+z : 3  5  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 4
+   10.170    11.250    10.170    11.250
+ Rep. Structure info for overlay: 4
+  repeat times along +x,+y,+z : 1  1  1
+  dist. between elements along +x,+y,+z :     1.000      1.000      0.000
+done overlay block:   1
+ ------------------------------------
+
+Overlay information for coarse mesh: 6
+ 1 block(s) 
+
+overlay block:  1
+ num of overlay   : -4
+ overlay type     : -2  -2  -2  -2
+ overlay mat      : 1  2  2  2
+ overlay boundary for overlay: 1
+    0.090     1.170     0.090     1.170
+ Rep. Structure info for overlay: 1
+  repeat times along +x,+y,+z : 17  17  1
+  dist. between elements along +x,+y,+z :     1.260      1.260      0.000
+ overlay boundary for overlay: 2
+    2.610     3.690     6.390     7.470
+ Rep. Structure info for overlay: 2
+  repeat times along +x,+y,+z : 5  3  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 3
+    6.390     7.470     2.610     3.690
+ Rep. Structure info for overlay: 3
+  repeat times along +x,+y,+z : 3  5  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 4
+    3.870     4.950     3.870     4.950
+ Rep. Structure info for overlay: 4
+  repeat times along +x,+y,+z : 2  2  1
+  dist. between elements along +x,+y,+z :    12.600     12.600      0.000
+done overlay block:   1
+ ------------------------------------
+
+Overlay information for coarse mesh: 7
+ 1 block(s) 
+
+overlay block:  1
+ num of overlay   : -4
+ overlay type     : -2  -2  -2  -2
+ overlay mat      : 1  2  2  2
+ overlay boundary for overlay: 1
+    0.090     1.170     0.090     1.170
+ Rep. Structure info for overlay: 1
+  repeat times along +x,+y,+z : 17  17  1
+  dist. between elements along +x,+y,+z :     1.260      1.260      0.000
+ overlay boundary for overlay: 2
+    2.610     3.690     6.390     7.470
+ Rep. Structure info for overlay: 2
+  repeat times along +x,+y,+z : 5  3  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 3
+    6.390     7.470     2.610     3.690
+ Rep. Structure info for overlay: 3
+  repeat times along +x,+y,+z : 3  5  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 4
+    3.870     4.950     3.870     4.950
+ Rep. Structure info for overlay: 4
+  repeat times along +x,+y,+z : 2  2  1
+  dist. between elements along +x,+y,+z :    12.600     12.600      0.000
+done overlay block:   1
+ ------------------------------------
+
+Overlay information for coarse mesh: 8
+ 1 block(s) 
+
+overlay block:  1
+ num of overlay   : -4
+ overlay type     : -2  -2  -2  -2
+ overlay mat      : 1  2  2  2
+ overlay boundary for overlay: 1
+    0.090     1.170     0.090     1.170
+ Rep. Structure info for overlay: 1
+  repeat times along +x,+y,+z : 17  17  1
+  dist. between elements along +x,+y,+z :     1.260      1.260      0.000
+ overlay boundary for overlay: 2
+    2.610     3.690     6.390     7.470
+ Rep. Structure info for overlay: 2
+  repeat times along +x,+y,+z : 5  3  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 3
+    6.390     7.470     2.610     3.690
+ Rep. Structure info for overlay: 3
+  repeat times along +x,+y,+z : 3  5  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 4
+    3.870     4.950     3.870     4.950
+ Rep. Structure info for overlay: 4
+  repeat times along +x,+y,+z : 2  2  1
+  dist. between elements along +x,+y,+z :    12.600     12.600      0.000
+done overlay block:   1
+ ------------------------------------
+
+Overlay information for coarse mesh: 9
+ 1 block(s) 
+
+overlay block:  1
+ num of overlay   : -4
+ overlay type     : -2  -2  -2  -2
+ overlay mat      : 1  2  2  2
+ overlay boundary for overlay: 1
+    0.090     1.170     0.090     1.170
+ Rep. Structure info for overlay: 1
+  repeat times along +x,+y,+z : 17  17  1
+  dist. between elements along +x,+y,+z :     1.260      1.260      0.000
+ overlay boundary for overlay: 2
+    2.610     3.690     6.390     7.470
+ Rep. Structure info for overlay: 2
+  repeat times along +x,+y,+z : 5  3  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 3
+    6.390     7.470     2.610     3.690
+ Rep. Structure info for overlay: 3
+  repeat times along +x,+y,+z : 3  5  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 4
+    3.870     4.950     3.870     4.950
+ Rep. Structure info for overlay: 4
+  repeat times along +x,+y,+z : 2  2  1
+  dist. between elements along +x,+y,+z :    12.600     12.600      0.000
+done overlay block:   1
+ ------------------------------------
+
+ typea1.inp  : read complete
+ ********************************************************
+
+
+ opening inputfile: typea2.inp
+ typea2.inp :  open success
+
+ information for z level:             2
+ number of coarse mesh along x(ncx):               3
+ number of coarse mesh along x(ncy):               3
+ max z fine mesh for this z level:                -1
+
+ num of x fine mesh for each coarse mesh in this z level: 
+          139          139          139
+          139          139          139
+          139          139          139
+
+ num of y fine mesh for each coarse mesh in this z level: 
+          139          139          139
+          139          139          139
+          139          139          139
+
+ num of z fine mesh for each coarse mesh in this z level: 
+            1            1            1
+            1            1            1
+            1            1            1
+
+ coarse mesh position along x: 
+    0.000000        7.560000        13.86000        21.42000    
+
+ coarse mesh position along y: 
+    0.000000        7.560000        13.86000        21.42000    
+
+ coarse mesh type in this z level: 
+           -1           -1           -1
+           -1           -1           -1
+           -1           -1           -1
+
+ number of subregions in corase mesh  in this z level: 
+            1            1            1
+            1            1            1
+            1            1            1
+
+ Mat num for coarse mesh 1 :  4
+ Mat num for coarse mesh 2 :  4
+ Mat num for coarse mesh 3 :  4
+ Mat num for coarse mesh 4 :  4
+ Mat num for coarse mesh 5 :  4
+ Mat num for coarse mesh 6 :  4
+ Mat num for coarse mesh 7 :  4
+ Mat num for coarse mesh 8 :  4
+ Mat num for coarse mesh 9 :  4
+
+
+
+Overlay information for coarse mesh: 1
+ 1 block(s) 
+
+overlay block:  1
+ num of overlay   : -4
+ overlay type     : -2  -2  -2  -2
+ overlay mat      : 1  2  2  2
+ overlay boundary for overlay: 1
+    0.090     1.170     0.090     1.170
+ Rep. Structure info for overlay: 1
+  repeat times along +x,+y,+z : 17  17  1
+  dist. between elements along +x,+y,+z :     1.260      1.260      0.000
+ overlay boundary for overlay: 2
+    2.610     3.690     6.390     7.470
+ Rep. Structure info for overlay: 2
+  repeat times along +x,+y,+z : 5  3  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 3
+    6.390     7.470     2.610     3.690
+ Rep. Structure info for overlay: 3
+  repeat times along +x,+y,+z : 3  5  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 4
+    3.870     4.950     3.870     4.950
+ Rep. Structure info for overlay: 4
+  repeat times along +x,+y,+z : 2  2  1
+  dist. between elements along +x,+y,+z :    12.600     12.600      0.000
+done overlay block:   1
+ ------------------------------------
+
+Overlay information for coarse mesh: 2
+ 1 block(s) 
+
+overlay block:  1
+ num of overlay   : -4
+ overlay type     : -2  -2  -2  -2
+ overlay mat      : 1  2  2  2
+ overlay boundary for overlay: 1
+    0.090     1.170     0.090     1.170
+ Rep. Structure info for overlay: 1
+  repeat times along +x,+y,+z : 17  17  1
+  dist. between elements along +x,+y,+z :     1.260      1.260      0.000
+ overlay boundary for overlay: 2
+    2.610     3.690     6.390     7.470
+ Rep. Structure info for overlay: 2
+  repeat times along +x,+y,+z : 5  3  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 3
+    6.390     7.470     2.610     3.690
+ Rep. Structure info for overlay: 3
+  repeat times along +x,+y,+z : 3  5  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 4
+    3.870     4.950     3.870     4.950
+ Rep. Structure info for overlay: 4
+  repeat times along +x,+y,+z : 2  2  1
+  dist. between elements along +x,+y,+z :    12.600     12.600      0.000
+done overlay block:   1
+ ------------------------------------
+
+Overlay information for coarse mesh: 3
+ 1 block(s) 
+
+overlay block:  1
+ num of overlay   : -4
+ overlay type     : -2  -2  -2  -2
+ overlay mat      : 1  2  2  2
+ overlay boundary for overlay: 1
+    0.090     1.170     0.090     1.170
+ Rep. Structure info for overlay: 1
+  repeat times along +x,+y,+z : 17  17  1
+  dist. between elements along +x,+y,+z :     1.260      1.260      0.000
+ overlay boundary for overlay: 2
+    2.610     3.690     6.390     7.470
+ Rep. Structure info for overlay: 2
+  repeat times along +x,+y,+z : 5  3  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 3
+    6.390     7.470     2.610     3.690
+ Rep. Structure info for overlay: 3
+  repeat times along +x,+y,+z : 3  5  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 4
+    3.870     4.950     3.870     4.950
+ Rep. Structure info for overlay: 4
+  repeat times along +x,+y,+z : 2  2  1
+  dist. between elements along +x,+y,+z :    12.600     12.600      0.000
+done overlay block:   1
+ ------------------------------------
+
+Overlay information for coarse mesh: 4
+ 1 block(s) 
+
+overlay block:  1
+ num of overlay   : -4
+ overlay type     : -2  -2  -2  -2
+ overlay mat      : 1  2  2  2
+ overlay boundary for overlay: 1
+    0.090     1.170     0.090     1.170
+ Rep. Structure info for overlay: 1
+  repeat times along +x,+y,+z : 17  17  1
+  dist. between elements along +x,+y,+z :     1.260      1.260      0.000
+ overlay boundary for overlay: 2
+    2.610     3.690     6.390     7.470
+ Rep. Structure info for overlay: 2
+  repeat times along +x,+y,+z : 5  3  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 3
+    6.390     7.470     2.610     3.690
+ Rep. Structure info for overlay: 3
+  repeat times along +x,+y,+z : 3  5  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 4
+    3.870     4.950     3.870     4.950
+ Rep. Structure info for overlay: 4
+  repeat times along +x,+y,+z : 2  2  1
+  dist. between elements along +x,+y,+z :    12.600     12.600      0.000
+done overlay block:   1
+ ------------------------------------
+
+Overlay information for coarse mesh: 5
+ 1 block(s) 
+
+overlay block:  1
+ num of overlay   : -4
+ overlay type     : -2  -2  -2  -2
+ overlay mat      : 1  2  2  3
+ overlay boundary for overlay: 1
+    0.090     1.170     0.090     1.170
+ Rep. Structure info for overlay: 1
+  repeat times along +x,+y,+z : 17  17  1
+  dist. between elements along +x,+y,+z :     1.260      1.260      0.000
+ overlay boundary for overlay: 2
+    2.610     3.690     6.390     7.470
+ Rep. Structure info for overlay: 2
+  repeat times along +x,+y,+z : 5  3  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 3
+    6.390     7.470     2.610     3.690
+ Rep. Structure info for overlay: 3
+  repeat times along +x,+y,+z : 3  5  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 4
+   10.170    11.250    10.170    11.250
+ Rep. Structure info for overlay: 4
+  repeat times along +x,+y,+z : 1  1  1
+  dist. between elements along +x,+y,+z :     1.000      1.000      0.000
+done overlay block:   1
+ ------------------------------------
+
+Overlay information for coarse mesh: 6
+ 1 block(s) 
+
+overlay block:  1
+ num of overlay   : -4
+ overlay type     : -2  -2  -2  -2
+ overlay mat      : 1  2  2  2
+ overlay boundary for overlay: 1
+    0.090     1.170     0.090     1.170
+ Rep. Structure info for overlay: 1
+  repeat times along +x,+y,+z : 17  17  1
+  dist. between elements along +x,+y,+z :     1.260      1.260      0.000
+ overlay boundary for overlay: 2
+    2.610     3.690     6.390     7.470
+ Rep. Structure info for overlay: 2
+  repeat times along +x,+y,+z : 5  3  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 3
+    6.390     7.470     2.610     3.690
+ Rep. Structure info for overlay: 3
+  repeat times along +x,+y,+z : 3  5  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 4
+    3.870     4.950     3.870     4.950
+ Rep. Structure info for overlay: 4
+  repeat times along +x,+y,+z : 2  2  1
+  dist. between elements along +x,+y,+z :    12.600     12.600      0.000
+done overlay block:   1
+ ------------------------------------
+
+Overlay information for coarse mesh: 7
+ 1 block(s) 
+
+overlay block:  1
+ num of overlay   : -4
+ overlay type     : -2  -2  -2  -2
+ overlay mat      : 1  2  2  2
+ overlay boundary for overlay: 1
+    0.090     1.170     0.090     1.170
+ Rep. Structure info for overlay: 1
+  repeat times along +x,+y,+z : 17  17  1
+  dist. between elements along +x,+y,+z :     1.260      1.260      0.000
+ overlay boundary for overlay: 2
+    2.610     3.690     6.390     7.470
+ Rep. Structure info for overlay: 2
+  repeat times along +x,+y,+z : 5  3  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 3
+    6.390     7.470     2.610     3.690
+ Rep. Structure info for overlay: 3
+  repeat times along +x,+y,+z : 3  5  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 4
+    3.870     4.950     3.870     4.950
+ Rep. Structure info for overlay: 4
+  repeat times along +x,+y,+z : 2  2  1
+  dist. between elements along +x,+y,+z :    12.600     12.600      0.000
+done overlay block:   1
+ ------------------------------------
+
+Overlay information for coarse mesh: 8
+ 1 block(s) 
+
+overlay block:  1
+ num of overlay   : -4
+ overlay type     : -2  -2  -2  -2
+ overlay mat      : 1  2  2  2
+ overlay boundary for overlay: 1
+    0.090     1.170     0.090     1.170
+ Rep. Structure info for overlay: 1
+  repeat times along +x,+y,+z : 17  17  1
+  dist. between elements along +x,+y,+z :     1.260      1.260      0.000
+ overlay boundary for overlay: 2
+    2.610     3.690     6.390     7.470
+ Rep. Structure info for overlay: 2
+  repeat times along +x,+y,+z : 5  3  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 3
+    6.390     7.470     2.610     3.690
+ Rep. Structure info for overlay: 3
+  repeat times along +x,+y,+z : 3  5  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 4
+    3.870     4.950     3.870     4.950
+ Rep. Structure info for overlay: 4
+  repeat times along +x,+y,+z : 2  2  1
+  dist. between elements along +x,+y,+z :    12.600     12.600      0.000
+done overlay block:   1
+ ------------------------------------
+
+Overlay information for coarse mesh: 9
+ 1 block(s) 
+
+overlay block:  1
+ num of overlay   : -4
+ overlay type     : -2  -2  -2  -2
+ overlay mat      : 1  2  2  2
+ overlay boundary for overlay: 1
+    0.090     1.170     0.090     1.170
+ Rep. Structure info for overlay: 1
+  repeat times along +x,+y,+z : 17  17  1
+  dist. between elements along +x,+y,+z :     1.260      1.260      0.000
+ overlay boundary for overlay: 2
+    2.610     3.690     6.390     7.470
+ Rep. Structure info for overlay: 2
+  repeat times along +x,+y,+z : 5  3  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 3
+    6.390     7.470     2.610     3.690
+ Rep. Structure info for overlay: 3
+  repeat times along +x,+y,+z : 3  5  1
+  dist. between elements along +x,+y,+z :     3.780      3.780      0.000
+ overlay boundary for overlay: 4
+    3.870     4.950     3.870     4.950
+ Rep. Structure info for overlay: 4
+  repeat times along +x,+y,+z : 2  2  1
+  dist. between elements along +x,+y,+z :    12.600     12.600      0.000
+done overlay block:   1
+ ------------------------------------
+
+ typea2.inp  : read complete
+ ********************************************************
+
+ PENMSH input files(.inp) completed
+ *************************************************
+ Begin processing log
+
+ Reading Mat vol file:./typea.mba                                                                                        
+ Reading Mat vol file done, file:./typea.mba                                                                             
+ Mat vol comparison output file done, file: typea_out.mba                                                                
+ Assigning Mat Num to fine meshes.....done
+ Macro file for Tecplot, file: typea.mcr                                                                                 
+ Dumping binary tecplot file...done typea_mix.plt
+ Assigning Pentran Varibles...done
+ Generating .pen pentran inputfile...done typea_out.pen
+ Generating TITAN input file...done typea_titan.inp
+Plotting slice at z=      0.50,              Mat Num distribution (num_material= 4), file: typ_z1cm.png
+Plotting slice at z=      1.50,              Mat Num distribution (num_material= 4), file: typ_z2cm.png
+ Plotting z level...  z lev graphic file(s) done 
+All done, logfile : read.log
+ ***************************************************
+Total Runtime :     5.0sec
+
+run finished at :    14:52:38  on 10/24/2010
+

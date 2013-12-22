@@ -1,0 +1,19 @@
+/ all comments begin with slash '/'
+/
+/
+/store types/tiles (type, unique label)
+./typea 1
+./typeb 2
+/
+/max z-level of tiles
+2
+/map levels (not necessarily the same as max z-level above) 
+/ (>1 not yet fully supported)
+1
+/map (reverse bird's eye-view)
+1 2
+2 1
+/output folder name (perhaps a new pentran prbname)
+./final
+/ extra comments
+/ do not leave blank lines (for this version)

@@ -1,0 +1,54 @@
+Material Balance Summary for Model: typeb
+ 
+Section 1 : Coarse Mesh infomation
+ CM #   x_size   y_size   z_size        fm num     tot_fm    fm vol  num_mat    # of fm per mat
+                                     x     y     z                             mat  1       2       3       4       5       6
+    1    7.560    7.560    1.000   139   139     1  19321 2.958E-03    5         3390    4986    1546    1238       0    8161
+    2    6.300    7.560    1.000   139   139     1  19321 2.465E-03    5         1846    3358    5206     734       0    8177
+    3    7.560    7.560    1.000   139   139     1  19321 2.958E-03    5         3390    4986    1546    1238       0    8161
+    4    7.560    6.300    1.000   139   139     1  19321 2.465E-03    5         1846    3358    5206     734       0    8177
+    5    6.300    6.300    1.000   139   139     1  19321 2.054E-03    3            0       0   10728       0     437    8156
+    6    7.560    6.300    1.000   139   139     1  19321 2.465E-03    5         1846    3358    5206     734       0    8177
+    7    7.560    7.560    1.000   139   139     1  19321 2.958E-03    5         3390    4986    1546    1238       0    8161
+    8    6.300    7.560    1.000   139   139     1  19321 2.465E-03    5         1846    3358    5206     734       0    8177
+    9    7.560    7.560    1.000   139   139     1  19321 2.958E-03    5         3390    4986    1546    1238       0    8161
+ 
+Section 2 : Model mat. infomation
+ 
+Contents of file: ./typeb.mba
+ 
+ 	-PENINP USER INPUT MATERIAL INVENTORY FOR BALANCE -
+ (The first 6 lines of this deck are comments)
+ ---------------------------------------------------------------
+        Material       Material  Target (cm^3)   Density g/cc
+            Name         Number   Volume           (see xsec)
+ ---------------------------------------------------------------
+              Low             1    58.62965873835   10.5216
+              Med             2    84.28013443638     6.44
+             High             3    91.60884177867     1.0
+              Rod             4    22.90221044466     1.0
+          Chamber             5    .9160884177867      .77624
+        Moderator             6     194.066847259     6.44
+ 
+Model Material Inventory/Volume Table
+ 
+Targeted Mean Density:   5.580534E+00 g/cm3 from .mba file
+     Targeted Volume :   4.524038E+02 cm3    Mass:    2.524655E+03 g
+        Model Volume :   4.588164E+02 cm3    Mass:    2.569997E+03 g
+ 
+ Material    Mat      Fine        Model (cm3)      % of      Mdl/Trg     Model Mass    Model 
+   name      No.     Meshes        volume          Total     V-Ratio     Excess (g)    Mass (g)
+----------  ------  --------     -------------    -------    ---------  ------------  ----------
+Low            1       20944     5.831417E+01     12.710     9.946E-01   -3.319E+00    6.136E+02
+Med            2       33376     9.210759E+01     20.075     1.093E+00    5.041E+01    5.932E+02
+High           3       37736     9.166387E+01     19.978     1.001E+00    5.503E-02    9.166E+01
+Rod            4        7888     2.188605E+01      4.770     9.556E-01   -1.016E+00    2.189E+01
+Chamber        5         437     8.977035E-01      0.196     9.799E-01   -1.427E-02    6.968E-01
+Moderator      6       73508     1.939470E+02     42.271     9.994E-01   -7.717E-01    1.249E+03
+ 
+     TOTAL            173889     4.588164E+02
+ 
+Material Vol in Cm^3
+ 
+Total Vol    :    4.588164E+02
+Total Mat Vol:    4.588164E+02

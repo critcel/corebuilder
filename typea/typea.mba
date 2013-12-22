@@ -1,0 +1,11 @@
+	-PENINP USER INPUT MATERIAL INVENTORY FOR BALANCE -
+(The first 6 lines of this deck are comments)
+---------------------------------------------------------------
+       Material       Material  Target (cm^3)   Density g/cc
+           Name         Number   Volume           (see xsec)
+---------------------------------------------------------------
+            Fuel             1    241.8473422957    10.5216
+             Rod             2     22.9022104446     6.44
+         Chamber             3    .9160884177867      .77624
+       Moderator             4     194.066847259     6.44
+           

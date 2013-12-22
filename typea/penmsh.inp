@@ -1,0 +1,22 @@
+/Problem name 
+typea
+/no. coarse z-levels, no. of materials, imath
+2,10,0
+/z-level coarse mesh boundary
+0 1 2
+/max. number of fine z-mesh per coarse z-level
+1 1
+/fine-to-med grid ratio along x.., y.., z.. in each coarse z-level
+1 1
+1 1
+1 1
+/source format, # x-src mesh, # y-src mesh, # z-src mesh, # groups, Sn quadrature, Pn order
+2,1,1,1,7,8,3
+/xsec type, xsec #comment cards, xsec Leg order, ihm 
+1,2,0,14
+/Bdy conds: ibback(-x),ibfrnt(+x),jbeast(-y),jbwest(+y),kbsout(-z),kbnort(+z)
+1,1,1,1,1,1
+/source material id (if id <0, need that number of sources) 
+
+/source magnitude(s)
+
