@@ -1,1 +1,1 @@
-![](images/blacktocat?raw=true)
+![](images/blacktocat.png?raw=true)
