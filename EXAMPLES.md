@@ -1,1 +1,1 @@
-![](images/blacktocat.png?raw=true)
+![](images/sprite_download.png?raw=true)
