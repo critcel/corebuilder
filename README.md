@@ -1,0 +1,1 @@
+**corebuilder** is a tool to merge multiple PENMSHXP decks together.  While PENMSHXP has fundamental array support, this tool preserves models at the assembly level while building at the full core level.  Hence the code being aptly named **corebuilder**.
