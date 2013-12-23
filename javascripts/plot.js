@@ -4,16 +4,15 @@ var data = {
   "yScale": "linear",
   "main": [
     {
-      "className": ".pizza",
+      "className": ".scaleup",
       "data": [
-        {
-          "x": "Pepperoni",
-          "y": 4
-        },
-        {
-          "x": "Cheese",
-          "y": 8
-        }
+  
+        { "x": "1x1", "y": 4 },    
+  
+        { "x": "2x2", "y": 8 },    
+  
+        { "x": "3x3", "y": 8 },    
+  
       ]
     }
   ]
