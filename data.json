@@ -1,4 +1,3 @@
-var jsonObj = {
 [
     {
         "name"      : "George",
@@ -25,4 +24,3 @@ var jsonObj = {
         "age"       : "2 years"
     }
 ]
-}
