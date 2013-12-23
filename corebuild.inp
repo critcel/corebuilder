@@ -1,17 +1,15 @@
 / all comments begin with slash '/'
-/
-/
-/store types/tiles (type, unique label)
+/ store types/tiles (type, unique label)
 ./typea A
 ./typeb B
 /
-/max z-level of tiles
+/ max z-level of tiles
 2
-/map levels (not the same as max z-level above) 
+/ map levels (not the same as max z-level above) 
 / levels can have multiple z-levels
 / (>1 not yet supported)
 1
-/map (reverse bird's eye-view)
+/ map (reverse bird's eye-view)
 A B B B
 B A B B
 A A A B
