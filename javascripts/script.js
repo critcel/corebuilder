@@ -1,5 +1,5 @@
 $(document).ready(function () { // load json file using jquery ajax
-    $.getJSON('data.json', function (data) {
+    $.getJSON('javascripts/timestamp.json', function (data) {
         var output = '<ul>';
         $.each(data, function (key, val) {
             output += '<li>' + val.name + ':' + '</li>';
