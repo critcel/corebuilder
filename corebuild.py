@@ -75,10 +75,6 @@ def overlayID(olList):
       olID.append('unidentified shape ID')
 
   return latflag,olID
-  
-  
-
-  
 
 # flatten a 2-d list to a 1-d list
 def flatten(iterable):
