@@ -1,0 +1,8 @@
+/All-zlev-in-one input file : prbname.inp
+/ncx, ncy
+3,0
+/ cm bounds along x-axis (in seq ...x)
+0.0 7.56 13.86 21.42 
+/ cm bounds along y-axis (in seq ...x)
+0.0 
+/CM cards
