@@ -8,3 +8,6 @@ $(document).ready(function () { // load json file using jquery ajax
         $('#update').html(output);  // replace all existing content
     });
 });
+$(document).ready(function () {       // load text file using jquery ajax
+    $('#coresource').load('corebuilder.inp');    // load text data
+});
