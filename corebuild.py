@@ -8,6 +8,14 @@ from __future__ import print_function
 import os
 import sys
 from operator import mul
+import argparse
+
+# argparse settings
+parser = argparse.ArgumentParser()
+parser.add_argument("--input", help="input filename")
+parser.add_argument("--output", help="output filename")
+args = parser.parse_args()
+args.input = str(args.input)
 
 ### AUXILARY FUNCTIONS ###
 
@@ -409,14 +417,14 @@ def processEachType(typeData,maxZLevel):  #type data is name of folder, folderna
 
 ### MAIN PROGRAM BEGIN
   
-if os.path.isfile("corebuild.inp"):
-  print("Processing corebuild.inp file")
+if os.path.isfile(args.input):
+  print("Processing input file")
 else:
-  print("No corebuild.inp file exists, exiting")
+  print("No " + args.input + " file exists, exiting")
   sys.exit(1)
   
 data=[]
-with open("corebuild.inp",'r') as file:
+with open(args.input,'r') as file:
   data=parseSlash(file)
 
   #input("Press <ENTER> to continue")
@@ -604,7 +612,13 @@ f = masterName
 if '/' in f:
   f=f.replace('./','')
 #print(f)
-f = f + '/prbname.inp'
+
+if args.output is None:
+    raise ValueError("No output file specified.")
+else:
+    args.output = str(args.output)
+
+f = f + '/' + args.output
 
 with open(f,'w') as penmshinp:
 
