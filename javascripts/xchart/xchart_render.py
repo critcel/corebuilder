@@ -16,11 +16,20 @@ template = templateEnv.get_template( TEMPLATE_FILE )
 
 # Here we add a new input variable containing a list.
 # Its contents will be expanded in the HTML as a unordered list.
-X = [ "1x1", "2x2", "3x3" ]
-Y = [ 4, 8, 8 ]
+newX = []
+newY = []
 
+count = 0
+with open("../times.dat", 'r') as f:
+    for line in f:
+        count +=1
+        newX.append(str(count)+'x'+str(count))
+        newY.append(float(line.strip()))
+
+print newX, newY
 templateVars = { "bar_data":
-                 ["\"x\": \""+str(i)+"\", \"y\": "+str(j) for i,j in zip(X,Y)],
+                 ["\"x\": \""+str(i)+"\", \"y\": "+str(j) 
+                     for i,j in zip(newX,newY)],
                }
 
 outputText = template.render( templateVars )
