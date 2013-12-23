@@ -9,5 +9,5 @@ $(document).ready(function () { // load json file using jquery ajax
     });
 });
 $(document).ready(function () {       // load text file using jquery ajax
-    $('#coresource').load('corebuilder.inp');    // load text data
+    $('#coresource').load('corebuild.inp');    // load text data
 });
