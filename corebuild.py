@@ -80,7 +80,8 @@ def overlayID(olList):
     elif abs(int(olList[1][x])) == 51:
       olID.append('sect')
     else:
-      olID.append('unidentified shape ID')
+      raise ValueError('unidentified shape ID')
+      # olID.append('unidentified shape ID')
 
   return latflag,olID
   
@@ -199,8 +200,17 @@ class zDataProcessor:
 
     # grab #xfm & #yfm & #zfm
     
-    pickRow = (cmn-1)//ncy + 1
-    pickCol = cmn % ncy or ncy    
+    # Handle the trivial case when ncy = 1
+    if ncy == 1:
+      pickRow = 1
+    else:
+      pickRow = (cmn-1)//ncy + 1
+
+    # Handle the trivial case when ncx = 1
+    if ncx == 1:
+      pickCol = 1
+    else:
+      pickCol = cmn % ncy or ncy    
 
     ### XFM : Number of X-fine Meshes ###
     
